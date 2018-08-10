@@ -70,7 +70,7 @@
 		<section class="py-5 bg-light">
 			<div class="container py-5 text-center">
 				<h1 class="pt-5">IN TOTAL FUNDED LOANS</h1>
-				<h2 class="lead-1" style="color: #888">$<span id="odometer" class="odometer">123456789</span></h2>
+				<h2 class="lead-1" style="color: #888">$<span id="odometer" class="odometer">1000000000</span></h2>
 				
 				<h3 class="text-secondary"> and counting...</h3>
 			</div>
@@ -309,16 +309,35 @@
 
 		<footer class="bg-light">
 			<div class="container py-5">
-				<p>Photo by Christopher Harris on Unsplash</p>
-				<p>Registered Mortgage Broker-NYS Department of Financial Services - All mortgage loans arranged with third party providers.
-				Licensed by the NJ Department of Banking and Insurance NMLS ID 876527 Before the website is formally authorized, all banker
-				or broker websites using for other states must contain the disclaimer “Website authorization by the New York State Department
-				of Financial Services is pending. Until this website is authorized, no mortgage loan applications for properties located
-				in New York will be accepted through this site” on the page that has the contact us information or apply for. The disclaimer
-				for New York State should be place consistently in a position that is relative to the telephone number or the complete information
-				box to ensure that potential New York borrowers do not complete the request form.</p>
-				<p>This material is not from HUD or FHA and has not been approved by HUD or any government agency. <img src="http://wordpress.whittle-roper.com/wp-content/uploads/2014/04/Equal_Housing_Logo_clear1.png" width="50" class="m-2" alt="equal housing logo"><img src="https://www.texasrhinoshield.com/wp-content/uploads/2013/08/bbb_logo.png" alt="better business bureau logo" width="50" class="m-2"></p>
-				
+				<div class="row">
+					<div class="col-md-3 text-secondary">
+						<h4>CONTACT</h4>
+						<hr>
+						<h4>General Inquiries</h4>
+						<h4>415-523-8837</h4>
+						<h4>hello@better.com</h4>
+						<hr>
+						<h4>Press Inquiries</h4>
+						<h4>415-523-8837</h4>
+						<h4>hello@better.com</h4>
+					</div>
+					<div class="col-md-9">
+						<p>Photo by rawpixel on Unsplash</p>
+						<p>Registered Mortgage Broker-NYS Department of Financial Services - All mortgage loans arranged with third party providers.
+							Licensed by the NJ Department of Banking and Insurance NMLS ID 876527 Before the website is formally authorized, all banker
+							or broker websites using for other states must contain the disclaimer “Website authorization by the New York State Department
+							of Financial Services is pending. Until this website is authorized, no mortgage loan applications for properties located
+							in New York will be accepted through this site” on the page that has the contact us information or apply for. The disclaimer
+							for New York State should be place consistently in a position that is relative to the telephone number or the complete
+							information box to ensure that potential New York borrowers do not complete the request form.</p>
+						<p>This material is not from HUD or FHA and has not been approved by HUD or any government agency.
+							<img src="http://wordpress.whittle-roper.com/wp-content/uploads/2014/04/Equal_Housing_Logo_clear1.png" width="50" class="m-2"
+							 alt="equal housing logo">
+							<img src="https://www.texasrhinoshield.com/wp-content/uploads/2013/08/bbb_logo.png" alt="better business bureau logo" width="50"
+							 class="m-2">
+						</p>
+					</div>
+				</div>
 			</div>
 		</footer> <!-- FOOTER -->
 
@@ -334,8 +353,10 @@
 	<!-- custom scripts -->
 	<script src="scripts.js"></script>
 	<script>
-	$('.odometer').mouseenter(function(){
-		odometer.innerHTML = 4896000000;
+	$(document).ready(function(){
+		setTimeout(() => {
+			odometer.innerHTML = 4896000000;
+		}, 1000);
 	})
 	</script>
 </body>
