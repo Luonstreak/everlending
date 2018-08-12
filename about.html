@@ -23,7 +23,9 @@
 
 		<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
 			<div class="container">
-				<a class="navbar-brand" href="index.html"><img src="https://i.imgur.com/D1nNLqd.png" alt="logo" height="40"></a>
+				<a class="navbar-brand" href="index.html">
+					<img src="https://i.imgur.com/ffipoNn.png" alt="logo" height="35">
+				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 				aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -35,7 +37,18 @@
 								<span class="sr-only">(current)</span>
 							</a>
 						</div>
-						<a class="nav-link" href="index.html">Loans</a>
+						<div class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+							 aria-expanded="false">
+								<span class="sr-only">(current)</span>
+								Loans
+							</a>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="index.html#full">FULL DOCUMENTATION LOANS</a>
+								<a class="dropdown-item" href="index.html#stated">STATED INCOME LOANS</a>
+								<a class="dropdown-item" href="index.html#asset">ASSET LOANS</a>
+							</div>
+						</div>
 						<div class="nav-item">
 							<a class="nav-link" href="contact.html">Contact Us</a>
 						</div>
@@ -45,10 +58,10 @@
 		</nav> <!-- NAVBAR -->
 
 		<section id="about">
-			<div class="container p-2 p-md-5">
-				<div>
+			<div class="container p-2 p-3 p-md-5">
+				<div style="position: relative;" class="pt-2 pt-md-5">
 					<h1>WHO WE ARE</h1>
-					<h4>Ever lending has been serving Southern California home buying needs for the past seventeen years. What began as two-person
+					<h4 style="font-style: italic">Ever lending has been serving Southern California home buying needs for the past seventeen years. What began as two-person
 						operation eventually grew to over forty mortgage professionals with more than four billion dollars in funded loans. Our
 						business was built almost entirely on word-of-mouth and referrals. Therefore, satisfying our clients is our most important
 						objective.
@@ -65,7 +78,7 @@
 		<footer class="bg-light">
 			<div class="container py-5">
 				<div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
-					<img src="https://i.imgur.com/D1nNLqd.png" alt="logo" id="footer-logo">
+					<img src="https://i.imgur.com/ffipoNn.png" alt="logo" id="footer-logo">
 					<div class="d-flex flex-column flex-md-row align-items-center">
 						<p class="mb-0 mx-3 text-dark">3550 Wilshire Blvd., Suite 1600</p>
 						<p class="mb-0 mx-3 text-dark">Los Angeles, CA 90010</p>
